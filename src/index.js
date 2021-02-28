@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Greeting from './Greeting';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Greeting name={4} />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
